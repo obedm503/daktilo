@@ -65,7 +65,8 @@ strong {
 /* =Header */
 .wrapper {
     max-width: 800px;
-    margin: 100px auto;
+    margin-left: auto;
+		margin-right: auto;
 }
 
 .header {
@@ -90,6 +91,7 @@ strong {
     margin-top: 6px;
     padding: 0px;
     list-style-type: none;
+		text-align: center;
 }
 
 .menu__entry {
@@ -178,6 +180,18 @@ strong {
     text-align: center;
 }
 
+.avatar {
+
+	img {
+		margin: auto;
+		width: 110px;
+		height: 110px;
+		position: relative;
+		bottom: -30px;
+		border-radius: 100px;
+	}
+}
+
 /* =Explore */
 .explore {
     text-align: center;
@@ -253,13 +267,22 @@ strong {
     }
 
     .wrapper {
-        width: 80%;
+      width: 80%;
+			margin-top: 30px;
     }
 
     .navigation,
     .social-links {
         @include centered-block();
     }
+
+		.avatar {
+			padding-bottom: 20px;
+
+			img {
+				bottom: 0 !important;
+			}
+		}
 
     .social-links {
         font-size: 30px;

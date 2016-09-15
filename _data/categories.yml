@@ -1,8 +1,11 @@
-- slug: design
-  name: Design
+- slug: frontEnd
+  name: frontEnd
 
-- slug: tools
-  name: Tools
+- slug: hybrid
+  name: hybrid
 
-- slug: productivity
-  name: Productivity
+- slug: spareTime
+  name: spareTime
+
+- slug: projects
+  name: projects

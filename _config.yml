@@ -1,16 +1,17 @@
 # Site settings
 title: camelCase
 description: >
-  obedm503 n stuff
+  thoughts on code
 
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://obedm503.github.io" # the base hostname & protocol for your site
 
 author:
+  avatar: assets/img/avatar.png
   fullname: obedm503
-  #googleplus: https://www.google.com/+MotaquillahMaddane
+  # googleplus: https://www.google.com/+MotaquillahMaddane
   github: obedm503
-  twitter: electrik_frog
+  # twitter: electrik_frog
   disqus: obedm503-camelcase
 
 # google_analytics: 'UA-XXXXXXXX-X'
