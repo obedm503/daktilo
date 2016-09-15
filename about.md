@@ -1,8 +1,8 @@
 ---
-layout: page
 title: about
+layout: page
 subtitle: just who is obedm503...
-permalink: /about/
+permalink: "/about/"
 ---
 
 obedm503's description

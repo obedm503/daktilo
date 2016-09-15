@@ -2,8 +2,9 @@
 title: Sample post from Daktilo
 date: '2014-08-19 23:56:45'
 layout: post
-date:   2014-08-19 23:56:45
-categories: [frontEnd, hybrid]
+categories:
+- frontEnd
+- hybrid
 ---
 
 Just a sample post to show some of the *typography* elements supported from

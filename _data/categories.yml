@@ -1,11 +1,9 @@
+---
 - slug: frontEnd
   name: frontEnd
-
 - slug: hybrid
   name: hybrid
-
 - slug: spareTime
   name: spareTime
-
 - slug: projects
   name: projects
