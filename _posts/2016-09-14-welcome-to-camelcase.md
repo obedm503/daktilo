@@ -6,4 +6,4 @@ date: 2016-09-14 23:34:01
 categories: [projects]
 ---
 
-intro to camelCase
+Naming conventions are important. They keep things readable and objective.
