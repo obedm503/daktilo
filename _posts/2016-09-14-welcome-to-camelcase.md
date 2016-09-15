@@ -7,3 +7,7 @@ categories: [projects]
 ---
 
 Naming conventions are important. They keep things readable and objective.
+
+```js
+var a = 10;
+```
