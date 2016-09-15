@@ -1,3 +1,6 @@
+- slug: projects
+  name: projects
+  
 - slug: frontEnd
   name: frontEnd
 
@@ -6,6 +9,3 @@
 
 - slug: spareTime
   name: spareTime
-
-- slug: projects
-  name: projects
