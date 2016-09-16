@@ -11,6 +11,7 @@ categories:
 # why
 
 there are 2 main reasons for me to blog:
+
 - so that there's a place where people can find instructions on how to use stuff I made
 - I've always wanted to write a blog but didn't have a reason ontil now
 
