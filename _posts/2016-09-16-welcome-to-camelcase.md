@@ -12,8 +12,9 @@ categories:
 
 there are 2 main reasons for me to blog:
 
-	- so that there's a place where people can find instructions on how to use stuff I made
-	- I've always wanted to write a blog but didn't have a reason ontil now
+
+- so that there's a place where people can find instructions on how to use stuff I made
+- I've always wanted to write a blog but didn't have a reason ontil now
 
 i chose the name camelCase because that's the accepted and recommended naming convention in javascript. javascipt is the language i know best and work on the most.
 
