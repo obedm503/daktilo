@@ -13,6 +13,8 @@ there are 2 main reasons for me to blog:
 - so that there's a place where people can find instructions on how to use stuff I made
 - I've always wanted to write a blog but didn't have a reason ontil now
 
+i chose the name camelCase because that's the accepted and recommended naming convention in javascript. javascipt is the language i know best and work on the most.
+
 # how
 
 because setting up a dedicated server with some complex cms is beyond what i need and simply not worth it, this blog lives on github and is powered by [jekyll](https://jekyllrb.com). jekyll is simple and capable enough for the kind of static blog I need. using jekyll means i don't have to be bothered by constantly updating a cms and extra plugins, but it also means i don't have to write a new html document for every blog post or worry about browser support as much. also, it's free.
