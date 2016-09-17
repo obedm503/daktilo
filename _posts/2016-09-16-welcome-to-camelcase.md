@@ -2,7 +2,7 @@
 layout: post
 title: welcome to camelCase
 subtitle: an introduction
-summary: an introduction to the camelCase blog, my reasons to blog, and the way I go about it
+excerpt: an introduction to the camelCase blog, my reasons to blog, and the way I go about it
 date: 2016-09-16 16:04:01
 categories:
 - projects

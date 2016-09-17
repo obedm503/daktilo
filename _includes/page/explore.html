@@ -5,7 +5,7 @@
     {% for category in site.data.categories %}
 
     <li class="categories__item">
-			<a href="{{ category.slug | append: '/' | prepend: '/' | prepend: site.baseurl }}">{{ category.name }}</a>
+			<a href="{{ category.slug | append: '.html' | prepend: '/' | prepend: site.baseurl }}">{{ category.name }}</a>
 		</li>
 
     {% endfor %}
