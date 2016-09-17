@@ -1,8 +1,8 @@
 <header class="header">
 
-	{% if site.author.picture %}
+	{% if site.authorInfo.picture %}
 		<div class="avatar">
-			<img src="{{ site.author.picture | prepend: '/' | prepend: site.baseurl }}"/>
+			<img src="{{ site.authorInfo.picture | prepend: site.baseurl }}"/>
 		</div>
 	{% endif %}
 
@@ -17,14 +17,14 @@
 	</div>
 
 	<ul class="social-links">
-		{% if site.author.github %}
-			<a href="https://github.com/{{ site.author.github }}" class="social-links__entry" target="_blank">
+		{% if site.authorInfo.github %}
+			<a href="https://github.com/{{ site.authorInfo.github }}" class="social-links__entry" target="_blank">
 			  <i class="fa fa-github"></i>
 			</a>
 		{% endif %}
 
-		{% if site.author.twitter %}
-			<a href="https://twitter.com/{{ site.author.twitter }}" class="social-links__entry" target="_blank">
+		{% if site.authorInfo.twitter %}
+			<a href="https://twitter.com/{{ site.authorInfo.twitter }}" class="social-links__entry" target="_blank">
 			  <i class="fa fa-twitter"></i>
 			</a>
 		{% endif %}

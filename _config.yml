@@ -6,8 +6,10 @@ description: >
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://obedm503.github.io" # the base hostname & protocol for your site
 
-author:
-  picture: assets/img/avatar.png
+author: obedm503
+
+authorInfo:
+  picture: /assets/img/avatar.png
   fullname: obedm503
   # googleplus: https://www.google.com/+MotaquillahMaddane
   github: obedm503
