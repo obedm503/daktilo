@@ -7,7 +7,7 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://obedm503.github.io" # the base hostname & protocol for your site
 
 author:
-  avatar: assets/img/avatar.png
+  picture: assets/img/avatar.png
   fullname: obedm503
   # googleplus: https://www.google.com/+MotaquillahMaddane
   github: obedm503
@@ -15,6 +15,17 @@ author:
   disqus: obedm503-camelcase
 
 # google_analytics: 'UA-XXXXXXXX-X'
+
+#permalinks
+collections:
+  posts:
+    permalink: /:year-:month-:day-:title.html
+  pages:
+    permalink: /:title.html
+  categories:
+    output: true
+    permalink: /:name.html
+
 
 # Syntax highlighting
 highlightstyle: 'atelier-lakeside.dark'
@@ -26,3 +37,6 @@ exclude: ["README.md", "README.html"]
 # Build settings
 highlighter: null
 markdown: kramdown
+
+gems:
+  - jekyll-feed

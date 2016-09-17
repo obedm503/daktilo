@@ -6,3 +6,4 @@
 {% if page.tags %}<meta name="keywords" content="{{ page.tags | join: ', ' }}">{% endif %}
 <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.url }}">
 <link rel="icon" type="image/png" href="https://obedm503.github.io/favicon.png" />
+{% feed_meta %}

@@ -172,7 +172,13 @@ strong {
     vertical-align: middle;
     color: $cloudy;
 }
-
+.post-teaser__summary {
+	font-size: 17px;
+	display: block;
+	text-indent: 2.5em;
+	padding-top: 20px;
+	color: $cloudy;
+}
 .empty-post-list {
     font-size: 22px;
     font-weight: 700;
@@ -196,17 +202,19 @@ strong {
 .explore {
     text-align: center;
     color: $cloudy;
-    margin-top: 140px;
+    margin-top: 90px;
 }
 
-.explore__devider {
-    font-size: 18px;
-    letter-spacing: 8.18px;
+.explore__divider {
+  font-size: 20px;
+	font-family: monospace;
+	color: black;
 }
 
 .explore__label {
-    font-size: 14px;
-    margin-top: 15px;
+  font-size: 20px;
+	font-family: monospace;
+	color: $cloudy;
 }
 
 .categories {
@@ -245,7 +253,7 @@ strong {
     line-height: 24px;
 }
 
-.about__devider {
+.about__divider {
     font-size: 20px;
     margin-bottom: 50px;
     letter-spacing: 9.09px;
@@ -258,6 +266,22 @@ strong {
 #disqus_thread {
     margin-top: 100px;
 }
+
+/* =Footer */
+footer {
+	font-size: 20px;
+	text-align: center;
+	color: $cloudy;
+
+	.feed {
+		padding-top:15px;
+	}
+	.copyright {
+		padding-top:15px;
+		padding-bottom:15px;
+	}
+}
+
 
 @media (max-width: 800px) {
     /* =Base */

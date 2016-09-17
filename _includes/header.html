@@ -1,8 +1,8 @@
 <header class="header">
 
-	{% if site.author.avatar %}
+	{% if site.author.picture %}
 		<div class="avatar">
-			<img src="{{ site.baseurl }}/{{ site.author.avatar }}"/>
+			<img src="{{ site.author.picture | prepend: '/' | prepend: site.baseurl }}"/>
 		</div>
 	{% endif %}
 
@@ -10,9 +10,9 @@
 	  <a href="/" class="logo">{{ site.title }}</a>
 
 	  <ul class="menu">
-      <li class="menu__entry"><a href="{{ '/about' | prepend: site.baseurl }}">about</a></li>
+      <li class="menu__entry"><a href="{{ '/about.html' | prepend: site.baseurl }}">about</a></li>
 
-      <li class="menu__entry"><a href="{{ '/categories/projects' | prepend: site.baseurl }}">projects</a></li>
+      <li class="menu__entry"><a href="{{ '/projects.html' | prepend: site.baseurl }}">projects</a></li>
 	  </ul>
 	</div>
 
