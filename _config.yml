@@ -9,7 +9,7 @@ url: "https://obedm503.github.io" # the base hostname & protocol for your site
 author: obedm503
 
 authorInfo:
-  picture: /assets/img/avatar.png
+  picture: /assets/media/avatar.png
   fullname: obedm503
   # googleplus: https://www.google.com/+MotaquillahMaddane
   github: obedm503
@@ -18,7 +18,7 @@ authorInfo:
 
 # google_analytics: 'UA-XXXXXXXX-X'
 
-#permalinks
+# permalinks
 collections:
   posts:
     permalink: /:year-:month-:day-:title.html
@@ -44,27 +44,11 @@ gems:
   - jekyll-feed
 
 #prose config
-
 prose:
   siteurl: "https://obedm503.github.io/"
-  rooturl:""
-  media:"assets/media"
+  rooturl: ""
+  media: "assets/media"
   metadata:
-    "":
-      - name: "layout"
-        field:
-          element: "hidden"
-          value: "page"
-      - name: "title"
-        field:
-          element: "text"
-          label: "Title"
-          value: ""
-      - name: "published"
-        field:
-          element: "checkbox"
-          label: "Published"
-          value: false
     _posts:
       - name: "layout"
         field:
@@ -80,16 +64,16 @@ prose:
           element: "text"
           label: "Subtitle"
           value:""
-      - name:"date"
+      - name: "date"
         field:
-          element:"text"
-          label:"Date"
-          value:""
-      - name:"excerpt"
+          element: "text"
+          label: "Date"
+          value: ""
+      - name: "excerpt"
         field:
-          element:"text"
-          label:"Summary/Excerpt"
-          value:""
+          element: "text"
+          label: "Summary/Excerpt"
+          value: ""
       - name: "published"
         field:
           element: "checkbox"
@@ -109,3 +93,18 @@ prose:
               value: "hybrid"
             - name: "spareTime"
               value: "spareTime"
+    "":
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "page"
+      - name: "title"
+        field:
+          element: "text"
+          label: "Title"
+          value: ""
+      - name: "published"
+        field:
+          element: "checkbox"
+          label: "Published"
+          value: false
