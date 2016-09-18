@@ -58,12 +58,10 @@ prose:
         field:
           element: text
           label: Title
-          value: ""
       - name: subtitle
         field:
           element: text
           label: Subtitle
-          value:""
       - name: date
         field:
           element: text
@@ -74,7 +72,6 @@ prose:
         field:
           element: textarea
           label: Summary/Excerpt
-          value: ""
       - name: published
         field:
           element: checkbox
@@ -103,7 +100,6 @@ prose:
         field:
           element: text
           label: Title
-          value: ""
       - name: published
         field:
           element: checkbox
