@@ -68,7 +68,7 @@ prose:
         field:
           element: text
           label: Date
-          placeholder: "YYYY-MM-DD HH:MM:SS"
+          placeholder: YYYY-MM-DD HH:MM:SS
           value: CURRENT_DATETIME
       - name: excerpt
         field:
