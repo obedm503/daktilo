@@ -68,6 +68,7 @@ prose:
         field:
           element: "text"
           label: "Date"
+          placeholder: CURRENT_DATETIME
           value: CURRENT_DATETIME
       - name: "excerpt"
         field:
