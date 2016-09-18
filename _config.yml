@@ -50,61 +50,62 @@ prose:
   media: "assets/media"
   metadata:
     _posts:
-      - name: "layout"
+      - name: layout
         field:
-          element: "hidden"
-          value: "post"
-      - name: "title"
+          element: hidden
+          value: post
+      - name: title
         field:
-          element: "text"
-          label: "Title"
+          element: text
+          label: Title
           value: ""
-      - name: "subtitle"
+      - name: subtitle
         field:
-          element: "text"
-          label: "Subtitle"
+          element: text
+          label: Subtitle
           value:""
-      - name: "date"
+      - name: date
         field:
-          element: "text"
-          label: "Date"
+          element: text
+          label: Date
+          placeholder: "YYYY-MM-DD HH:MM:SS"
           value: CURRENT_DATETIME
-      - name: "excerpt"
+      - name: excerpt
         field:
-          element: "textarea"
-          label: "Summary/Excerpt"
+          element: textarea
+          label: Summary/Excerpt
           value: ""
-      - name: "published"
+      - name: published
         field:
-          element: "checkbox"
-          label: "Published"
+          element: checkbox
+          label: Published
           value: false
-      - name: "categories"
+      - name: categories
         field:
-          element: "multiselect"
-          label: "Add Categories"
-          placeholder: "Choose Categories"
+          element: multiselect
+          label: Add Categories
+          placeholder: Choose Categories
           options:
-            - name: "projects"
-              value: "projects"
-            - name: "frontEnd"
-              value: "frontEnd"
-            - name: "hydrid"
-              value: "hybrid"
-            - name: "spareTime"
-              value: "spareTime"
+            - name: projects
+              value: projects
+            - name: frontEnd
+              value: frontEnd
+            - name: hydrid
+              value: hybrid
+            - name: spareTime
+              value: spareTime
     "":
-      - name: "layout"
+      - name: layout
         field:
-          element: "hidden"
-          value: "page"
-      - name: "title"
+          element: hidden
+          value: page
+      - name: title
         field:
-          element: "text"
-          label: "Title"
+          element: text
+          label: Title
           value: ""
-      - name: "published"
+      - name: published
         field:
-          element: "checkbox"
-          label: "Published"
+          element: checkbox
+          label: Published
           value: false
