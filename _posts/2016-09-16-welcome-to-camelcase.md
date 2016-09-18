@@ -2,10 +2,13 @@
 layout: post
 title: welcome to camelCase
 subtitle: an introduction
-excerpt: an introduction to the camelCase blog, my reasons to blog, and the way I go about it
-date: 2016-09-16 16:04:01
+excerpt: >-
+  an introduction to the camelCase blog, my reasons to blog, and the way I go
+  about it
+date: 2016-09-16T16:04:01.000Z
 categories:
-- projects
+  - projects
+published: true
 ---
 
 # why
