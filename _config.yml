@@ -68,10 +68,10 @@ prose:
         field:
           element: "text"
           label: "Date"
-          value: ""
+          value: CURRENT_DATETIME
       - name: "excerpt"
         field:
-          element: "text"
+          element: "textarea"
           label: "Summary/Excerpt"
           value: ""
       - name: "published"
