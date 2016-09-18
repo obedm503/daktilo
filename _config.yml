@@ -42,3 +42,70 @@ markdown: kramdown
 
 gems:
   - jekyll-feed
+
+#prose config
+
+prose:
+  siteurl: "https://obedm503.github.io/"
+  rooturl:""
+  media:"assets/media"
+  metadata:
+    "":
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "page"
+      - name: "title"
+        field:
+          element: "text"
+          label: "Title"
+          value: ""
+      - name: "published"
+        field:
+          element: "checkbox"
+          label: "Published"
+          value: false
+    _posts:
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "post"
+      - name: "title"
+        field:
+          element: "text"
+          label: "Title"
+          value: ""
+      - name: "subtitle"
+        field:
+          element: "text"
+          label: "Subtitle"
+          value:""
+      - name:"date"
+        field:
+          element:"text"
+          label:"Date"
+          value:""
+      - name:"excerpt"
+        field:
+          element:"text"
+          label:"Summary/Excerpt"
+          value:""
+      - name: "published"
+        field:
+          element: "checkbox"
+          label: "Published"
+          value: false
+      - name: "categories"
+        field:
+          element: "multiselect"
+          label: "Add Categories"
+          placeholder: "Choose Categories"
+          options:
+            - name: "projects"
+              value: "projects"
+            - name: "frontEnd"
+              value: "frontEnd"
+            - name: "hydrid"
+              value: "hybrid"
+            - name: "spareTime"
+              value: "spareTime"
