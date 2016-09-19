@@ -1,0 +1,10 @@
+<li class="post-teaser">
+		<a href="{{ post.url | prepend: site.baseurl }}">
+			<img class="post-teaser__image" src="{{ post.image }}" />
+			<div class="post-teaser__main">
+				<span class="post-teaser__title">{{ post.title }}</span>
+				<span class="post-teaser__date">{{ post.date | date: "%d %B %Y" }}</span>
+				<span class="post-teaser__excerpt">{{ post.excerpt }}</span>
+			</div>
+		</a>
+</li>
