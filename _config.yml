@@ -21,7 +21,7 @@ authorInfo:
 # permalinks
 collections:
   posts:
-    permalink: /:year-:month-:day-:title.html
+    permalink: /article/:year-:month-:day-:title.html
   pages:
     permalink: /:title.html
   categories:
